@@ -13,5 +13,6 @@ git config --global push.default simple
 $SUDO apt-get update
 $SUDO apt-get install -y emacs git man less curl 
 
-
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=3600'
 
