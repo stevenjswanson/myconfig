@@ -14,7 +14,7 @@ $SUDO apt-get update
 $SUDO apt-get install -y emacs git man less curl 
 
 if ! [ -e ~/.emacs ]; then
-    curl https://raw.githubusercontent.com/stevenjswanson/myconfig/master/.emacs > ~/.emacsxb
+    curl https://raw.githubusercontent.com/stevenjswanson/myconfig/master/.emacs > ~/.emacs
 fi
 
 git config --global credential.helper cache
