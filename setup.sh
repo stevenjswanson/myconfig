@@ -11,7 +11,7 @@ git config --global user.name "Steven Swanson"
 git config --global push.default simple
 
 $SUDO apt-get update
-$SUDO apt-get install -y emacs-nox git man less curl 
+$SUDO apt-get install -y emacs-nox git man less
 
 if ! [ -e ~/.emacs ]; then
     curl https://raw.githubusercontent.com/stevenjswanson/myconfig/master/.emacs > ~/.emacs
